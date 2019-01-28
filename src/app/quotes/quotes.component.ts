@@ -7,24 +7,29 @@ import {Quotes} from '../quotes'
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-
-    Quotes = [
-        new Quotes(1,'Independence is happiness', 'All that we see or seem is but a dream within a dream.', new Date(2019,1,29)),
-        new Quotes(2,'Happiness can exist only in acceptance.', 'Independence is happiness.', new Date(2019,1,4)),
-        new Quotes(3, 'Love has no age, no limit; and no death.', 'Happiness can exist only in acceptance.', new Date(2019,1,20)),
-        new Quotes(4, 'You cannot shake hands with a clenched fist.', 'You can not blame gravity for falling in love.', new Date(2019,1,10)),
-        new Quotes(5, 'Learning never exhausts the mind.', 'Whoever is happy will make others happy too.', new Date(2019,1,18)),
-        new Quotes(6, 'There is no charm equal to tenderness of heart.', 'If opportunity does not knock, build a door.', new Date(2019,1,26)),
-    ]
-    deleteQuote(isComplete,index){
-        if (isComplete){
-            let toDelete=confirm(`Are you sure you want to delete ${this.Quotes[index].name}`)
-            
-            if(toDelete){
-                this.Quotes.splice(index,1)
-            }
-            
-        }
-        
+    @Input() quote:Quotes;
+    // Quotes = [
+    //     new Quotes(1,'Independence is happiness', 'All that we see or seem is but a dream within a dream.', new Date(2019,1,29)),
+    //     new Quotes(2,'Happiness can exist only in acceptance.', 'Independence is happiness.', new Date(2019,1,4)),
+    //     new Quotes(3, 'Love has no age, no limit; and no death.', 'Happiness can exist only in acceptance.', new Date(2019,1,20)),
+    //     new Quotes(4, 'You cannot shake hands with a clenched fist.', 'You can not blame gravity for falling in love.', new Date(2019,1,10)),
+    //     new Quotes(5, 'Learning never exhausts the mind.', 'Whoever is happy will make others happy too.', new Date(2019,1,18)),
+    //     new Quotes(6, 'There is no charm equal to tenderness of heart.', 'If opportunity does not knock, build a door.', new Date(2019,1,26)),
+    // ]
+    toogleDetails(index){
+        this.quote[index].showDescription = !this.quote[index].showDescription;
     }
+    // deleteQuote(isComplete,index){
+    //     if (isComplete){
+    //         let toDelete=confirm(`Are you sure you want to delete ${this.quote[index].name}`)
+            
+    //         if(toDelete){
+    //             this.quote.splice(index,1)
+    //         }
+            
+//         }
+       
+//     }
+    ngOnInit() {
+}
 }

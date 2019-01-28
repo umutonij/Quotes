@@ -1,0 +1,10 @@
+.container-fluid{
+    padding: 2px;
+}
+.form-group{
+    padding: 20px;
+}
+.btn-lg{
+    color: blue;
+    box-sizing: border-box;
+}
