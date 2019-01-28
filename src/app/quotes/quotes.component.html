@@ -1,9 +1,10 @@
-<h1>My Quotes</h1>
-<hr>
+<h1>Please Enter your Quotes</h1>
+
 <ul>
   <div *ngFor='let Quote of Quotes'>
     <li>{{Quote.name}}</li>
-    <app-quote-details [quote]='quote'></app-quote-details>
+    <button  (click)='toogleDetails(i)'>Toogle Details</button>
+    <app-quote-details *ngIf="quote.showDescription" [quote]='quote' (isComplete)= 'completeQuotes($event,i)'></app-quote-details>
   </div>
 </ul>
 <p *ngIf='Quotes.length > 5'>You have too many Quotes</p>

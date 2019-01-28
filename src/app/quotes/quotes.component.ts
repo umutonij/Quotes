@@ -16,9 +16,13 @@ export class QuotesComponent implements OnInit {
         new Quotes(5, 'Learning never exhausts the mind.', 'Whoever is happy will make others happy too.'),
         new Quotes(6, 'There is no charm equal to tenderness of heart.', 'If opportunity does not knock, build a door.'),
     ]
-
-  constructor() { }
+    completeQuotes(isComplete,index){
+      if (isComplete){
+          this.Quotes.splice(index,1);
+          }
+          }
+          constructor() { }
 
   ngOnInit() {
   }
-}
+        }
