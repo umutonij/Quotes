@@ -16,7 +16,7 @@ You would need the following to access the website:
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
 
-This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want.
+This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want. after that then run the ng serve to run your application.
 
 ## Technologies Used
 
