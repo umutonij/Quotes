@@ -1,6 +1,6 @@
 # Quotes
 
-This is an application that is used to compose different Quotes of any choice. 29th,January,2019
+This is an application that is used to compose different Quotes of any choice. 29th,January,2019.
 
 ## Description
 
