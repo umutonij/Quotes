@@ -1,27 +1,38 @@
 # Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+This is an application that is used to compose different Quotes of any choice. 29th,January,2019
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want.
 
-## Code scaffolding
+## Setup/Installation Requirements
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You would need the following to access the website:
+* Smart phone/PC/laptop/Desktop or Tablet.
+* A running network connection to the internet(either wireless or ethernet).
+* A web browser(Chrome is most recommendable).
+* Check out the link here that directs you to the Triangle tracker application:
 
-## Build
+## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want.
 
-## Running unit tests
+## Technologies Used
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+* HTML
+* CSS
+* Bootstrap
+* Angular
 
-## Running end-to-end tests
+## Support and contact details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+I Encourage you to contact me when you get a question, addition or assistance through:
 
-## Further help
+* Email: jacquelineumutoni13@gmail.com
+* Phone: 0787683456
+* Adress: Kigali-Rwanda 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+License
+
+MIT Copyright (c) 2019 UMUTONI Jacqueline
