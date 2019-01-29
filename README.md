@@ -23,7 +23,7 @@ This application is done so that i can help people to write any quote of the per
 * HTML
 * CSS
 * Bootstrap
-* Angular(Typescript)
+* Angular(Typescript).
 
 ## Support and contact details
 
