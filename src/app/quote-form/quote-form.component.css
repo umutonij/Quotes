@@ -3,8 +3,17 @@
 }
 .form-group{
     padding: 20px;
+    position: relative;
+    right: -700px;
+    font-size: 24px;
 }
 .btn-lg{
     color: blue;
-    box-sizing: border-box;
+    position: relative;
+    right: -700px;
+    padding: 10px;
+    font-size: 20px;
+}
+label{
+    color: brown;
 }
