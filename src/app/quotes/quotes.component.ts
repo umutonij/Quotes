@@ -17,11 +17,11 @@ export class QuotesComponent implements OnInit {
         // new Quotes(6, 'There is no charm equal to tenderness of heart.', 'If opportunity does not knock, build a door.', new Date(2019,1,26)),
     ]
     toogleDetails(index){
-        this.quote[index].showDescription = !this.quote[index].showDescription;
+        this.Quotes[index].showDescription = !this.Quotes[index].showDescription;
     }
     deleteQuote(isComplete,index){
         if (isComplete){
-            let toDelete=confirm(`Are you sure you want to delete ${this.quote[index].name}`)
+            let toDelete=confirm(`Are you sure you want to delete ${this.Quotes[index].name}`)
             
             if(toDelete){
                 this.Quotes.splice(index,1)
@@ -30,7 +30,13 @@ export class QuotesComponent implements OnInit {
         }
        
     }
-
+    addNewQuotes(quote){
+        let quoteLength = this.Quotes.length;
+        quote.id=quoteLength+1;
+        quote.completeDate = new Date(quote.completeDate)
+        this.Quotes.push(quote)
+    }
     ngOnInit() {
 }
+
 }

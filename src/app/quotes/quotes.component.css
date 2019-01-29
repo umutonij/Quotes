@@ -1,6 +1,10 @@
 h1{
     position: relative;
-    right: -700px;
+    right: -600px;
     box-shadow: 2px 2px 5px brown;
     padding: 10px;
+    color: brown;
+}
+.container{
+    background-color: rgb(84, 192, 228);
 }

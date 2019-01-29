@@ -2,11 +2,11 @@
 
 <div class="container">
     <div class="row">
-        <app-quote-form (addQuotes)="addNewQuotes($event)"></app-quote-form>
+        <app-quote-form (addQuote)="addNewQuotes($event, i)"></app-quote-form>
     </div>
-    <div class="row" *ngFor="let quote of Quotes;let i = 'index'">
-        <div class="row">
-            <h4 id="{{i}}" appStrikethrough>{{quote.name}} due on {{Quotes.completeDate|date|uppercase}}</h4>
+    <div  *ngFor="let quote of Quotes;let i = 'index'">
+        <!-- <div class="row"> -->
+            <h4 id="{{i}}" appStrikethrough>{{quote.name}} due on {{quote.completeDate|date|uppercase}}</h4>
            
         
         <button class="btn btn-primary" (click)='toogleDetails(i)'>Toogle Details</button>

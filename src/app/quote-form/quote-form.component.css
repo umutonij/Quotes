@@ -2,18 +2,21 @@
     padding: 2px;
 }
 .form-group{
-    padding: 20px;
+    /* padding: 20px; */
     position: relative;
-    right: -700px;
+    right: -600px;
     font-size: 24px;
 }
 .btn-lg{
     color: blue;
     position: relative;
-    right: -700px;
+    right: -600px;
     padding: 10px;
     font-size: 20px;
 }
 label{
-    color: brown;
+    color: rgb(73, 15, 5);
+}
+.row{
+    padding: 10px;
 }
