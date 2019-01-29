@@ -12,7 +12,7 @@ You would need the following to access the website:
 * Smart phone/PC/laptop/Desktop or Tablet.
 * A running network connection to the internet(either wireless or ethernet).
 * A web browser(Chrome is most recommendable).
-* Check out the link here that directs you to the Triangle tracker application:
+
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
 
