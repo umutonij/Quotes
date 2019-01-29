@@ -1,5 +1,42 @@
-<p>quote:{{quote.quote}}</p>
-<p>Date:{{quote.completeDate|date|uppercase}}</p>
-<p>Author:{{quote.author}}</p>
-<p>complete in {{quote.completeDate|dateCount}} days</p>
+<p>{{quote.description}}</p>
+
+<p>This quote will be completed in {{quote.completeDate|dateCount}} days</p>
 <button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote </button>
+<p>votes: number;</p>
+
+<p>{{quote.author}} </p>
+
+   <div class="four wide column center aligned votes">
+     <div class="ui statistic">
+
+       <div class="value">
+         {{ votes }}
+       </div>
+       <div class="label">
+         Votes:
+       </div>
+
+     </div>
+
+   </div>
+
+   <div class="twelve wide column">
+
+     <ul class="ui big horizontal list voters">
+       <li class="item">
+         <a href (click)="likeVote()">
+         <i class="arrow up icon"></i>
+           upvote
+         </a>
+       </li>
+
+       <li class="item">
+         <a href (click)="dislikeVote()">
+         <i class="arrow down icon"></i>
+           downvote
+         </a>
+       </li>
+
+     </ul>
+   </div>
+
