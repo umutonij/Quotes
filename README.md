@@ -13,10 +13,12 @@ You would need the following to access the website:
 * A running network connection to the internet(either wireless or ethernet).
 * A web browser(Chrome is most recommendable).
 
+## Development server
+Run ng serve for a dev server. Navigate to  http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## BEHAVIOUR DRIVEN DEVELOPMENT(BDD)
 
-This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want. after that then run the ng serve to run your application.
+This application is done so that i can help people to write any quote of the person's choice. after that your inputs will be desplayed down and after you can delete it if you want. after that then run the ng serve to run your application. and after that Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 
 ## Technologies Used
 
