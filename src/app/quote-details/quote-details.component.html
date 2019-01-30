@@ -1,10 +1,12 @@
-<p>{{quote.description}}</p>
+<!-- <p>{{quote.description}}</p> -->
+<p> {{quote.quote}} </p>
+<p> {{quote.author}} </p>
 <p>This quote will be completed in {{quote.completeDate|dateCount}} days</p>
 <button class="btn btn-danger" (click) = 'quoteDelete(true)'> Delete Quote </button>
 <p>votes: number;</p>
 
-<p> {{quote.quote}} </p>
-<p> {{quote.author}} </p>
+
+
 
    <div class="four wide column center aligned votes">
      <div class="ui statistic">
